@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: #000080;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    color: #000080;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    padding: 15px;
+    color: #000080;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+   background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    color: #000080;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Practica 9</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="https://surisarai.github.io/Practica1/">Practica 1</a></li>
+    <li><a href="https://surisarai.github.io/Practica2/">Practica 2</a></li>
+    <li><a href="https://surisarai.github.io/Practica3/">Practica 3</a></li>
+    <li><a href="https://surisarai.github.io/Practica4/">Practica 4</a></li>
+    <li><a href="https://surisarai.github.io/Practica5/">Practica 5</a></li>
+    <li><a href="https://surisarai.github.io/Practica6/">Practica 6</a></li>
+    <li><a href="https://surisarai.github.io/Practica7/">Practica 7</a></li>
+    <li><a href="https://surisarai.github.io/Practica7/">Practica 8</a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+                            <div align="center"><h1>MI CV</h1></div>
+   <form class="form" action="" method="get" novalidate>
+                    <h4>Valencia Hernández Suri Sarai:</h4>
+                                         <UL TYPE="circle">
+            <LI>Datos personales</LI>
+            <UL TYPE="disc">
+                <LI>Nombre completo: Valencia Hernández Suri Sarai</LI>
+                <LI>Fecha de nacimiento: 09/08/2001</LI>
+                <LI>Lugar de nacimento:Rio Blanco</LI>
+            </UL>
+        
+        </UL>
+        <UL TYPE="circle">
+            <LI>Formaci&oacute;n acad&eacute;mica</LI>
+            <UL TYPE="disc">
+                <LI>2007-2013: Escuela Primaria Miguel Hidalgo</LI>
+                <LI>2013-2017: Telesecundaria Lazaro Cardenas del Rio</LI>
+                <LI>2017-2020: Centro de Bachillerato Tecnolog&iacute;co Industrial y de Servicios No.192</LI>
+                <LI>2020-2023: Instituto Tecnologico de Orizaba</LI>
+            </UL>
+        </UL>
+        <UL TYPE="circle">
+            <LI>Experiencia Laboral</LI>
+            <UL TYPE="disc">
+                <LI>2017-2020: Niñera</LI>
+                <LI>2020 - 2021: Decoradora de eventos</LI>
+            </UL>
+                    </UL>
+                    <figure>
+                        <img id="imagen" src="img/su.jpg">
+                        <figcaption>
+                            Valencia Hernández Suri Sarai 
+                        </figcaption>
+                    </figure>
+
+          
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+     <blockquote>Pdf</blockquote>
+      <a href="hhh.pdf">
+       <figure>
+         <img src="img/pdf.png" alt="pdf" >
+       </figure>
+     </a>
+    
+
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div>
+
+</body>
+</html>
